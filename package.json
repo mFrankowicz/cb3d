@@ -1,0 +1,30 @@
+{
+  "name": "cb3d",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --devtool eval-source-map",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mFrankowicz/cb3d.git"
+  },
+  "author": "Marcos Frankowicz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mFrankowicz/cb3d/issues"
+  },
+  "homepage": "https://github.com/mFrankowicz/cb3d#readme",
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  },
+  "dependencies": {
+    "three": "^0.139.2"
+  }
+}
