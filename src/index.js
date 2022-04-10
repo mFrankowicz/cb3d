@@ -51,7 +51,7 @@ document.addEventListener('pointerdown', onPointerDown);
 loader.load( glb, function ( gltf ) {
   gltf = gltf
   const model = gltf.scene;
-  model.position.set( 1, 1, 0 );
+  model.position.set( 0, 0, 0 );
   //model.scale.set( 0.01, 0.01, 0.01 );
   scene.add( model );
 
